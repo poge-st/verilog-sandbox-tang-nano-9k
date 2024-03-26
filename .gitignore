@@ -1,1 +1,8 @@
-*.fs
+# FPGA bitstream file
+*.fs 
+
+#intermediate files
+*.json 
+
+# allow project files
+!*.lushay.json
