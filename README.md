@@ -1,6 +1,7 @@
 # verilog-sandbox-tang-nano-9k
 
 Collection of simple FPGA example designs for tang nano 9k.
+The provided examples are using Verilog.
 
 ### 01-counter
 Simple counter with is output to the 6 available leds of the tang nano 9k.
@@ -18,4 +19,4 @@ Simple counter with is output to the 6 available leds of the tang nano 9k.
 |Tang Primer 20K|GW2A	|GW2A-18C	|
 
 ## Links
-More information find at [tech-hobbyist](https://www.tech-hobbyist.com/).
+More information find at [tech-hobbyist.com](https://www.tech-hobbyist.com/).
