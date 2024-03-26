@@ -4,7 +4,7 @@
 -Created: 2024.03.26
 -Board: Tang Nano 9k
 -Description:
-read input btn1 and output it
+read input btn1 and output it to led[0]
 */
 
 module top (

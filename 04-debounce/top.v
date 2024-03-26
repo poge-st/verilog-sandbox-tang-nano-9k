@@ -4,7 +4,7 @@
 -Created: 2024.03.26
 -Board: Tang Nano 9k
 -Description:
-basic debounce algorithm with 2 8 bit counters
+basic debounce algorithm with 2*8-bit counters
 pin information:
 Y - LED[0]
 A - btn1

@@ -6,6 +6,17 @@ The provided examples are using Verilog.
 ### 01-counter
 Simple counter with is output to the 6 available leds of the tang nano 9k.
 
+### 02-blinky
+Simple blinky design whih the help of a 32bit long counter.
+
+### 03-btn-led
+Read input btn1 and output it to led[0].
+
+### 04-debounce
+Basic debounce algorithm with 2*8-bit counters.
+
+###05-blinky-pll
+Usage of the tang nano 9k pll, 2 parallel blinky instances are used with different clocks.
 
 ## Board overview 
 
