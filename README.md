@@ -24,6 +24,7 @@ commands to run testbench:
 - iverilog -o top_tb.vvp top_tb.v 
 - vvp top_tb.vvp
 - gtkwave counter.vcd 
+
 gtkwave can be skipped if signals are viewed in vscode with extension: WaveTrace
 
 ## Board overview 
