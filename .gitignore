@@ -1,6 +1,10 @@
 # FPGA bitstream file
 *.fs 
 
+#FPGA Simulation Data
+*.vvp
+*.vcd
+
 #intermediate files
 *.json 
 
