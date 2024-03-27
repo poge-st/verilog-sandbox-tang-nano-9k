@@ -15,8 +15,16 @@ Read input btn1 and output it to led[0].
 ### 04-debounce
 Basic debounce algorithm with 2*8-bit counters.
 
-###05-blinky-pll
+### 05-blinky-pll
 Usage of the tang nano 9k pll, 2 parallel blinky instances are used with different clocks.
+
+### 06-counter-testbench
+testbench for counter (top.v)
+commands to run testbench:
+- iverilog -o top_tb.vvp top_tb.v 
+- vvp top_tb.vvp
+- gtkwave counter.vcd 
+gtkwave can be skipped if signals are viewed in vscode with extension: WaveTrace
 
 ## Board overview 
 
