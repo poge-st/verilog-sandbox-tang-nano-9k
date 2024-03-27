@@ -21,9 +21,9 @@ Usage of the tang nano 9k pll, 2 parallel blinky instances are used with differe
 ### 06-counter-testbench
 testbench for counter (top.v)
 commands to run testbench:
-- iverilog -o top_tb.vvp top_tb.v 
-- vvp top_tb.vvp
-- gtkwave counter.vcd 
+    iverilog -o top.vvp top_tb.v 
+    vvp top.vvp
+    gtkwave top.vcd 
 
 gtkwave can be skipped if signals are viewed in vscode with extension: WaveTrace
 

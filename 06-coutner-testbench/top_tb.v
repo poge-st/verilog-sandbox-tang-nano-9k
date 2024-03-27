@@ -6,12 +6,13 @@
 -Description:
 testbench for counter (top.v)
 commands to run testbench:
-    iverilog -o top_tb.vvp top_tb.v 
-    vvp top_tb.vvp
-    gtkwave counter.vcd 
+    iverilog -o top.vvp top_tb.v 
+    vvp top.vvp
+    gtkwave top.vcd 
 
 gtkwave can be skipped if signals are viewed in vscode with extension: WaveTrace
 */
+`timescale 1us/1us
 `include "top.v"
 
 module top_tb ();
@@ -19,19 +20,17 @@ module top_tb ();
 reg clk;
 wire [5:0] led;
 
-initial clk = 0;
-
 top cnt0 (clk, led);
 
 initial
     begin        
-        $dumpfile("top_tb.vcd");
+        clk = 0;
+        $dumpfile("top.vcd");
         $dumpvars(0,top_tb);
         #20
         $finish;
     end
 
-always
-    #1  clk = ~clk;
+always #1 clk = ~clk;
     
 endmodule
