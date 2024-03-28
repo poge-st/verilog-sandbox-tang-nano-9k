@@ -3,6 +3,20 @@
 Collection of simple FPGA example designs for tang nano 9k.
 The provided examples are using Verilog.
 
+
+## FPGA toolchain with Verilog
+for development (coding, design and build):
+- install Visual studio Code
+- install [Yosys oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build)
+- install Vistual Studio Code Addons
+-- Lushay Code
+-- Verilog-HDL/SystemVerilog/Bluespec SystemVerilog
+
+for simulation:
+- install [icarus iverilog](https://bleyer.org/icarus/) + GTKWave (included in same package)
+- install Visual Studio Code Addon: WaveTrace (optional if you want to view simulation results directly in VSCode)
+
+
 ### 01-counter
 Simple counter with is output to the 6 available leds of the tang nano 9k.
 
