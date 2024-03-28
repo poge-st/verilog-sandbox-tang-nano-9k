@@ -6,15 +6,15 @@ The provided examples are using Verilog.
 
 ## FPGA toolchain with Verilog
 for development (coding, design and build):
-- install Visual studio Code
+- install [Visual studio Code](https://code.visualstudio.com/)
 - install [Yosys oss-cad-suite](https://github.com/YosysHQ/oss-cad-suite-build)
 - install Vistual Studio Code Addons
-    - Lushay Code
-    - Verilog-HDL/SystemVerilog/Bluespec SystemVerilog
+    - [Lushay Code](https://marketplace.visualstudio.com/items?itemName=lushay-labs.lushay-code)
+    - [Verilog-HDL/SystemVerilog/Bluespec SystemVerilog](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL)
 
 for simulation:
 - install [icarus iverilog](https://bleyer.org/icarus/) + GTKWave (included in same package)
-- install Visual Studio Code Addon: WaveTrace (optional if you want to view simulation results directly in VSCode)
+- install Visual Studio Code Addon: [WaveTrace](https://marketplace.visualstudio.com/items?itemName=wavetrace.wavetrace) - optional if you want to view simulation results directly in VSCode
 
 
 ### 01-counter
