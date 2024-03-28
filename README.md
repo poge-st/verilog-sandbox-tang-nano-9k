@@ -16,6 +16,7 @@ for simulation:
 - install [icarus iverilog](https://bleyer.org/icarus/) + GTKWave (included in same package)
 - install Visual Studio Code Addon: [WaveTrace](https://marketplace.visualstudio.com/items?itemName=wavetrace.wavetrace) - optional if you want to view simulation results directly in VSCode
 
+## Examples
 
 ### 01-counter
 Simple counter with is output to the 6 available leds of the tang nano 9k.
