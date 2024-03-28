@@ -42,7 +42,7 @@ commands to run testbench:
 
 gtkwave can be skipped if signals are viewed in vscode with extension: WaveTrace
 
-## Board overview 
+## Tang Nano Board overview 
 
 |Board name		|Series	|Device		|
 |---------------|-------|-----------|
